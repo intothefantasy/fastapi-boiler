@@ -1,0 +1,25 @@
+{
+  "folders": [{
+    "name": "Root",
+    "path": "."
+  },
+  {
+    "path": "backend"
+  },
+  {
+    "name": "Backend API",
+    "path": "backend/api_server",
+  }
+  ],
+  "settings": {
+    // Hide files from the Explorer tree
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.pytest_cache/": true,
+      "**/build": true
+    },
+    // Python
+    "python.formatting.provider": "black",
+    "python.defaultInterpreterPath": "D:\\GitHub\\fastapi-boiler\\venv\\Scripts\\python.exe"
+  }
+}

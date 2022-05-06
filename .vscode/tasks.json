@@ -1,0 +1,18 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [{
+      "label": "Create local Python venv (deletes any existing venv)",
+      "type": "shell",
+      "command": "source ./scripts/setup_python_venv.sh -r",
+      "problemMatcher": []
+    },
+    {
+      "label": "Update local Python venv with new requirements",
+      "type": "shell",
+      "command": "source ./scripts/setup_python_venv.sh",
+      "problemMatcher": []
+    },
+  ]
+}
